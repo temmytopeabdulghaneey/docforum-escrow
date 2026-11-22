@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "predev": "npm --prefix ../../sdk run build && npm --prefix ../../packages/escrow-react run build",
-    "dev": "vite",
+    "dev": "node init && vite",
     "prebuild": "npm --prefix ../../sdk run build && npm --prefix ../../packages/escrow-react run build",
-    "build": "tsc --noEmit && vite build",
+    "build": "node init && tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

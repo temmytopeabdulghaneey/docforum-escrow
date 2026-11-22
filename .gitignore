@@ -3,7 +3,6 @@ dist/
 build/
 target/
 *.tgz
-.env
-.env.local
 *.log
 .DS_Store
+config.bat
